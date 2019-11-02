@@ -1,0 +1,103 @@
+/* Required height of parents of the Full Page Carousel for proper displaying carousel itself */
+html,
+body,
+.view {
+  height: 100%; }
+
+
+/* Full Page Carousel itself*/
+.carousel {
+  height: 100%; }
+  .carousel .carousel-inner {
+    height: 100%; }
+    .carousel .carousel-inner .carousel-item,
+    .carousel .carousel-inner .active {
+      height: 100%; }
+
+/* Navbar animation */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.2); }
+
+.top-nav-collapse {
+  background-color: #1C2331; }
+
+/* Adding color to the Navbar on mobile */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #1C2331; } }
+
+/* Footer color for sake of consistency with Navbar */
+.page-footer {
+  background-color: #1C2331; }
+
+
+/*background video styling*/
+#myVideo {
+	position: fixed;
+    z-index: -1;
+}
+
+
+
+/*Styling for comm page*/
+
+#commhead{
+        background: linear-gradient( #0000002b,black);
+    color: white;
+    height: 60px;
+    line-height: 40px;
+    padding: 12px;
+   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+/*Styling for footer page*/
+#usefulfooter ul li{
+    display: block;
+    
+}
+#usefulfoot ul li hover{
+    display: block;
+    background-color: aliceblue;
+    opacity: 0.5;
+    
+}
+
+.composter{
+    width: 80%;
+   /*float: right;
+    padding: 10px;*/
+    margin: 10%;
+    margin-top: 5%;
+}
+.commcard{
+ 
+  height: auto;
+}
+
+
+.commcard a:hover{
+
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.commlogo{
+    height: 120px;
+    width: 120px;
+    padding: 5px;
+}
+
+/*Styling for teams page*/
+
+.cardtext  p{
+   font-size: 15px;
+    line-height: 5px;
+}
+.cardtext  b{
+   font-size: 20px;
+    line-height: 5px;
+}
+.cardstyle{
+    margin: 10px;
+}
